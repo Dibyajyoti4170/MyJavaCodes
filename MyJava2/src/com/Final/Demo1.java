@@ -17,6 +17,8 @@ public class Demo1 {
 	}
 
 }
+
+// LOCAL VARIABLE
 //OUTPUT BEFORE USING FINAL KEYWORD.
 //30
 //--------------

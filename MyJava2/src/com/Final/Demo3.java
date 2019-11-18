@@ -18,3 +18,4 @@ public class Demo3 {
 	}	
 
 }
+//STATIC MEMBER VARIABLE

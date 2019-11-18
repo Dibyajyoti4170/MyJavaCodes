@@ -1,15 +1,11 @@
 package com.overriding;
 
- class Circle extends Shape {
-	 
-	 void area()
+public class Circle {
+	
+	void area()
 	 {
-		 int length = 20;
-		 int breadth =30;
-		 System.out.println(length*breadth);
+		 int r = 2;
+		 System.out.println(3.14*r*r);
 	 }
-	 
-	 
-	 
 
 }

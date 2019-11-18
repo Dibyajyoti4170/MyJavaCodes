@@ -5,14 +5,13 @@ public class C {
 	void initializing(int i)
 	{
 		this.i=i;
-		//System.out.println(i);
-		System.out.println(this.i);
 	}
 	public static void main(String[] args) {
 		C x = new C();
 		x.initializing(10);
-		
+		System.out.println(x.i);
 
 	}
 
 }
+ 

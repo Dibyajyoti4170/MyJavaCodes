@@ -4,7 +4,7 @@ package com.constructor;
     {
     	Demo2(boolean bboolean)	
     	{
-    		System.out.println("from Demo2(boolean)");	
+    		System.out.println(("from Demo2(booleana)"));	
     	}
     }
 

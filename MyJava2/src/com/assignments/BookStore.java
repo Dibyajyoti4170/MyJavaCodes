@@ -10,7 +10,7 @@ public class BookStore {
 	  for (int n=0;n<shelf.length;n++)
 	  {
 		  System.out.println(shelf[n].name + "  " + shelf[n].price + "   " + shelf[n].isbn);
-		  shelf[n].genre();
+		  shelf[n].genre("thriller");
 	  }
 	  
 	}

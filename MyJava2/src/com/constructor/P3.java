@@ -24,3 +24,8 @@ public class P3 {
 		System.out.println(ob4.i);
 	}
 }
+//OUTPUT
+//10
+//10
+//10
+//120

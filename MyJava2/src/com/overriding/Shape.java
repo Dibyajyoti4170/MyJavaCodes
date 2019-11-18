@@ -1,6 +1,6 @@
 package com.overriding;
 
-public class Shape {
+ class Shape {
 	
 	void area()
 	{
