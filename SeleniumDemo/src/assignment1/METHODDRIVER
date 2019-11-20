@@ -1,0 +1,27 @@
+DIFFERENT METHODS USED IN WEBDRIVER-
+
+   METHOD NAME                         USE                                 RETURN TYPE                       FORMAL ARGUMENT
+   get()                it is used to launch the browser directly             void                                URL
+  
+   navigate().to   it is used to call the get() and then launch the browser  navigation                           URL
+  
+   close()              it is used to close the current tab.                  void                          NO FORMAL ARGUMENT
+  
+   quit()               it is used to quit the entire browser.                void                          NO FORMAL ARGUMENT
+  
+   manage()             it is used to manage the browser                      options                       NO FORMAL ARGUMENT
+  
+   navigate().refresh() it is used to refresh the browser                     void                          NO FORMAL ARGUMENT
+  
+   getTitle()           it is used to get the title of current tab.           String                        NO FORMAL ARGUMENT
+
+   getCurrentUrl()      it is used to get the current url.                    String                        NO FORMAL ARGUMENT
+  
+   getWindowHandle()    display reference of one parent only                  String                        NO FORMAL ARGUMENT
+  
+   getWindowHandles()   display one parent and multiple child.                String                        NO FORRMAL ARGUMENT
+ 
+   switchTo()           it is used for locating the target                  Target Locator                  NO FORMAL ARGUMENT
+   
+   getPageSource()      returns the source of current object.                 String                        NO FORMAL ARGUMENT
+   
