@@ -17,7 +17,7 @@ DIFFERENT METHODS USED IN WEBDRIVER-
 
    getCurrentUrl()      it is used to get the current url.                    String                        NO FORMAL ARGUMENT
   
-   getWindowHandle()    display reference of one parent only                  String                        NO FORMAL ARGUMENT
+   getWindowHandle()    display reference of one parent only windowHandle     String                        NO FORMAL ARGUMENT
   
    getWindowHandles()   display one parent and multiple child.                String                        NO FORRMAL ARGUMENT
  
