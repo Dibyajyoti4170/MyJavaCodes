@@ -11,11 +11,12 @@ public class UrbanLadder {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", ".\\software\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();	
-		driver.get("https://www.urbanladder.com/");
+		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		WebElement we = driver.findElement(By.className("google-auth"));
 		Thread.sleep(3000);
 		we.click();
+		
 		
 		
 	}

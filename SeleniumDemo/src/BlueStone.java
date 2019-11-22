@@ -15,8 +15,9 @@ public class BlueStone {
 		WebElement a1 = driver.findElement(By.id("login"));
 		a1.click();
 		Thread.sleep(2000);
-	    driver.findElement(By.id("email-id")).sendKeys("pattnaikdibyajyoti56334@gmail.com",Keys.ENTER);
-		driver.findElement(By.id("password")).sendKeys("18434@FA2",Keys.ENTER);
+	    driver.findElement(By.id("email-id")).sendKeys("pattnaikdibyajyoti883@gmail.com",Keys.ENTER);
+	    Thread.sleep(2000);
+		driver.findElement(By.id("password")).sendKeys("18915@FA2",Keys.ENTER);
 	}
 
 }
