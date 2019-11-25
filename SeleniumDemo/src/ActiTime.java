@@ -29,6 +29,10 @@ public class ActiTime {
 		Thread.sleep(3000);
 		String title1 = driver.getTitle();
 		System.out.println(title1);
+		driver.findElement(By.xpath("//tr/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table/tbody/tr[2]")).sendKeys("Manager",Keys.ENTER);
+		Thread.sleep(3000);
+		String obj = getTitle();
+		System.out.println(obj);
 		if(title!=title1)
 		{
 			System.out.println("Login successful");
@@ -37,11 +41,16 @@ public class ActiTime {
 		else
 			System.out.println("Login unsuccessful");
 		System.out.println("****************************");
-		WebElement at3 = driver.findElement(By.id("logoutLink"));
+		/*WebElement at3 = driver.findElement(By.id("logoutLink"));
 		at3.sendKeys(Keys.ENTER);
 	    at3.click();
 		Thread.sleep(3000);
-		System.out.println("successfully logged out of ACTI TIME");
+		System.out.println("successfully logged out of ACTI TIME");*/
+	}
+
+	private static String getTitle() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 
